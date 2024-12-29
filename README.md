@@ -8,7 +8,7 @@
 - Separate webhooks are reserved for each command.
 ### For webhook.json
 - You can create it with any webhook builder. For example [Discohook](https://discohook.org/)
-- **Varaibles**:
+- **Variables**:
   - **Player name**: %player%
   - **Command**: %command%
   - **Full Command**: %message%
