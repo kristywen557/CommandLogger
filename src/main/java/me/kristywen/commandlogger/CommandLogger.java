@@ -45,7 +45,7 @@ public final class CommandLogger extends JavaPlugin implements Listener {
         ConfigurationSection configSect = getConfig().getConfigurationSection("commands");
         for (String blockedCommand : configSect.getKeys(false)) {
             ConfigurationSection commandSect = configSect.getConfigurationSection(blockedCommand);
-            if (message.contains("/"+blockedCommand)) {ğ
+            if (message.contains("/"+blockedCommand)) {
                 if(commandSect.getBoolean("ignore")) {
                     String ignoreMessage = getConfig().getString("messages.ignore");
                     if(ignoreMessage != "") player.sendMessage(ChatColor.translateAlternateColorCodes('&',ignoreMessage));
