@@ -1,0 +1,3 @@
+{
+  "content": "```yml\\n----- SYSTEM MESSAGE -----\\nStaff: %player%\\nUsed Command: %command%\\nWith Params U.C: %message%```"
+}

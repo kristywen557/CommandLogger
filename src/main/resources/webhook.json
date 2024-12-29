@@ -1,0 +1,29 @@
+{
+  "content": null,
+  "embeds": [
+    {
+      "title": "Logged a command!",
+      "color": 13977672,
+      "fields": [
+        {
+          "name": "Player",
+          "value": "%player%",
+          "inline": true
+        },
+        {
+          "name": "Used Command",
+          "value": "%command%",
+          "inline": true
+        },
+        {
+          "name": "With Params U.C",
+          "value": "%message%"
+        }
+      ],
+      "thumbnail": {
+        "url": "https://mc-heads.net/avatar/mydoordash/100"
+      }
+    }
+  ],
+  "attachments": []
+}

@@ -1,0 +1,4 @@
+commands:
+  gamemode:
+    webhook: ""
+    ignore: true

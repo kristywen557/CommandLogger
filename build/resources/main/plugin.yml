@@ -1,0 +1,9 @@
+name: CommandLogger
+version: '1.0'
+main: me.kristywen.commandlogger.CommandLogger
+api-version: '1.16'
+load: STARTUP
+authors: [kristywen]
+commands:
+  reload:
+    usage: "/reload"

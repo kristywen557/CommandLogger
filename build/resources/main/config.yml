@@ -1,0 +1,8 @@
+messages:
+  ignore: "&cBu komutu kullanamazsın!"
+  logged: "&7Yaptığınız işlem kayıt altına alınmıştır."
+  webhook: ''
+commands:
+  denemekomutu123:
+    webhook: "https://discord.com/api/webhooks/..."
+    ignore: true

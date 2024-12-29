@@ -1,0 +1,8 @@
+messages:
+  ignore: "&cYou don't use the command!"
+  logged: "&7Your action is logged."
+  webhook: ''
+commands:
+  denemekomutu123:
+    webhook: "https://discord.com/api/webhooks/..."
+    ignore: true
